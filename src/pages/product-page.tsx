@@ -6,7 +6,7 @@ import { SiMercadopago } from "react-icons/si";
 import { img } from "@/lib/img";
 
 // ── Link de compartilhamento — edite aqui para mudar facilmente ──
-const SHARE_URL = "https://album-mais-250figurinhas-mercadolivre.netlify.app/";
+const SHARE_URL = "https://album-250figurinhas-mercadolivre.netlify.app/";
 const SHARE_TITLE = "Kit Álbum Copa Do Mundo 2026 Capa Mole + 250 Figurinhas Panini por R$ 49,00!";
 // ────────────────────────────────────────────────────────────────
 
@@ -772,13 +772,13 @@ export default function ProductPage() {
         name: 'Kit Álbum Copa Do Mundo 2026 Capa Mole + 180 Figurinhas Panini - 25 Envelopes',
         price: 'R$ 39,90',
         img: img('/images/sugg-1.webp'),
-        link: 'https://album-180-figurinhas-mercadolivre.netlify.app/',
+        link: 'https://kit70-figurinhas-mercadolivre.netlify.app/',
       },
       {
         name: 'Kit 140 Figurinhas Do Álbum Copa Do Mundo 2026 - 20 Envelopes',
         price: 'R$ 49,90',
         img: img('/images/sugg-2.webp'),
-        link: 'https://kit-140-figurinhas-mercadolivre.netlify.app/',
+        link: 'https://kit140-figurinhas-mercadolivre.netlify.app/',
       },
       {
         name: 'Kit 252 Figurinhas Do Álbum Copa Do Mundo 2026 - 36 Pacotes',
