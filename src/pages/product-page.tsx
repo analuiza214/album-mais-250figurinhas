@@ -147,6 +147,10 @@ export default function ProductPage() {
   function handleFinalizarCompra() {
     setShowCart(false);
     setPreparando(true);
+    sessionStorage.setItem(
+      "topmix_cart",
+      JSON.stringify({ qty: cartCount, totalPrice: 49.0 * cartCount })
+    );
     setTimeout(() => {
       setPreparando(false);
       navigate("/cep");
