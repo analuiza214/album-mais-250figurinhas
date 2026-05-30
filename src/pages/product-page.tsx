@@ -356,10 +356,10 @@ export default function ProductPage() {
   }
 
   const slides: SlideItem[] = [
-    { type: "image", src: img("/images/slide-7.webp") },
-    { type: "image", src: img("/images/slide-1.webp") },
-    { type: "image", src: img("/images/slide-2.webp") },
-    { type: "image", src: img("/images/slide-3.webp") },
+    { type: "image", src: img("/images/new-slide-1.jpg") },
+    { type: "video", src: img("/images/new-slide-2.mp4") },
+    { type: "image", src: img("/images/new-slide-3.png") },
+    { type: "image", src: img("/images/new-slide-4.png") },
     { type: "image", src: img("/images/slide-4.webp") },
     { type: "image", src: img("/images/slide-5.webp") },
     { type: "image", src: img("/images/slide-6.webp") },
